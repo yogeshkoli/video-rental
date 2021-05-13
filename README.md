@@ -7,4 +7,7 @@ Framework: Django
 
 /api/movies/
 
-- this is application developed to get hands on Django Framework
+
+## Purpose of the Project 
+
+- this application developed to get hands on Django Framework
