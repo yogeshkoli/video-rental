@@ -21,3 +21,16 @@ server-laravel-echo-server.json
 /database/raw-queries
 /.DS_Store
 /public/local-pb
+*.pyc
+*.pyo
+
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
