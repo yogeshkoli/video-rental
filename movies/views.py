@@ -5,4 +5,4 @@ from .models import Movie
 
 def index(request):
     movies = Movie.objects.all()
-    return render(request, 'index.html', {'movies': movies})
+    return render(request, 'movies/index.html', {'movies': movies})
