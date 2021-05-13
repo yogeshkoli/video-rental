@@ -14,7 +14,7 @@
                 {% for movie in movies %}
                     <tr>
                         <td>
-                            <a href="{% url 'movies_details' movie.id %}">
+                            <a href="{% url 'movies:details' movie.id %}">
                                 {{ movie.title }}
                             </a>
                         </td>
